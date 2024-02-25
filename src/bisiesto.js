@@ -1,6 +1,6 @@
 function esbisiesto(anio){
 
-    if (anio === 4) {
+    if (anio%4 === 0 && anio%100 != 0) {
         return true;
     }else{
         return false;
