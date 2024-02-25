@@ -24,3 +24,11 @@ describe("Es Bisiesto", () => {
       expect(esbisiesto(2100)).toEqual(false);
     });
   });
+
+  describe("Es Bisiesto", () => {
+    it("Anios divisibles por 400  deberian ser bisiestos", () => {
+      expect(esbisiesto(2020)).toEqual(true);
+    });
+  });
+
+  
